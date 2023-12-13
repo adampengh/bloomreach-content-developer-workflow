@@ -1,0 +1,26 @@
+{
+  "name": "bloomreach-content-developer-workflow",
+  "version": "1.0.0",
+  "description": "Sample repository for demonstrating workflow for multi-environment Bloomreach Content SaaS CMS setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engine": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adampengh/bloomreach-content-developer-workflow.git"
+  },
+  "author": "Adam Pengh (adam.pengh@bloomreach.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adampengh/bloomreach-content-developer-workflow/issues"
+  },
+  "homepage": "https://github.com/adampengh/bloomreach-content-developer-workflow#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
